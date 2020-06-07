@@ -37,10 +37,24 @@
         }
     }
   </script>
- <script src="https://cdn.bootcss.com/docsify/4.10.2/docsify.min.js"></script>
- <script src="https://cdn.bootcss.com/docsify/4.10.2/plugins/search.js"></script>
+  <script src="https://cdn.bootcss.com/docsify/4.10.2/docsify.min.js"></script>
+  <script src="https://cdn.bootcss.com/docsify/4.10.2/plugins/search.js"></script>
   <script src="/sourceCodeAnalysis/static/prism-java.js"></script>
   <script src="/sourceCodeAnalysis/static/docsify-copy-code.min.js"></script>
   <script src="/sourceCodeAnalysis/static/tctip-1.0.0.min.js"></script>
+  <script>
+    new tctip({
+        top: '20%',
+        button: {
+            id: 9,
+            type: 'dashang',
+        },
+        list: [
+          {
+              type: 'wechat',
+              qrImg: '/sourceCodeAnalysis/static/wechat.jpg'
+          }
+        ]
+    }).init()</script>
 </body>
 </html>
