@@ -15,11 +15,11 @@ Git项目主页：
 
 
 <div align=center>
-<img width = "320" height = "320" src="https://gitee.com/HNov/image/raw/master/typora/20200608221530.png"/>
-<img width = "340" height = "340" src="https://gitee.com/HNov/image/raw/master/typora/20200608215740.jpg"/>
+<img src="https://gitee.com/HNov/image/raw/master/typora/20200609000952.jpg"
 </div>
 
 ## [首页](README.md)
+
  ### 一. JAVA基础
    #### [HashMap(JDK8)](docs/HashMap(JDK8)知识汇总.md)
  ### 二.内存与JVM
