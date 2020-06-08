@@ -6,12 +6,38 @@
  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="/sourceCodeAnalysis/static/vue.css">
+  <link rel="stylesheet" type="text/css" href="static/css/vue.css">
+  <link type=text/css rel=stylesheet href=static/css/myRewards.css>
 </head>
 <body>
   <a href="https://github.com/HNov/sourceCodeAnalysis" target="_blank" class="github-corner" aria-label="View source on Github"><svg viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
 
   <div id="app"></div>
+  <script>
+    window.tctipConfig = {
+          //最上面的文字
+            headText: "欢迎加入技术群交流^_^",
+            //侧边栏文本
+            siderText: "公告 & 微信群",
+            //侧边栏文本高度调整
+            siderTextTop: "-72px",
+            //侧边栏背景颜色
+            siderBgcolor: "rgb(99, 184, 255)",
+            //整个侧边栏的高度设置可以px，em，或百分比
+            siderTop:"30%",
+            // siderTop:"118px",
+            //底部文字
+            buttomText:"了解更多",
+            //底部文字链接
+            buttomLink:"https://gitee.com/HNov/sourceCodeAnalysis",
+            list:{  // ../assets/logo.png
+                notice: {icon: "static/img/icon/tip.png", name:"公告栏", className:"myR-on", text: '天机不可泄露<br>除非扫描下方二维码<br>加入微信群<br>领技术栈图谱哦!'},
+                alipay: {icon: "static/img/icon/alipay.png", name:"支付宝", desc: "用支付宝打赏", qrimg: "static/img/icon/alipay_pay.png"},
+                weixin: {icon: "static/img/icon/weixin.png", name:"微信", desc: "用微信打赏", qrimg: "static/img/icon/wechat_pay.png"},
+                wei2xin: {icon: "static/img/icon/weixin.png", name:"微信群", desc: "微信群将满100人，请加微信群讨论吧", qrimg: "static/img/icon/wechat_grop.png"}    
+            }
+        };
+  </script>
   <script>
     window.$docsify = {
       //标题
@@ -42,22 +68,8 @@
   </script>
   <script src="https://cdn.bootcss.com/docsify/4.10.2/docsify.min.js"></script>
   <script src="https://cdn.bootcss.com/docsify/4.10.2/plugins/search.js"></script>
-  <script src="/sourceCodeAnalysis/static/prism-java.js"></script>
-  <script src="/sourceCodeAnalysis/static/docsify-copy-code.min.js"></script>
-  <script src="/sourceCodeAnalysis/static/tctip-1.0.0.min.js"></script>
-  <script>
-    new tctip({
-        top: '30%',
-        button: {
-            id: 9,
-            type: 'dashang',
-        },
-        list: [
-          {
-              type: 'wechat',
-              qrImg: '/sourceCodeAnalysis/static/img/wechat.jpg'          }
-        ]
-    }).init()
-  </script>
+  <script src="static/js/prism-java.js"></script>
+  <script src="static/js/tctip-pr.min.js"></script>
+  <script src="static/js/docsify-copy-code.min.js"></script>
 </body>
 </html>
