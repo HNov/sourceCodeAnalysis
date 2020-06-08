@@ -2,7 +2,7 @@
 
 最佳阅读地址：
 -  http://hnov.gitee.io/sourcecodeanalysis
--  https://hnov.github.io/sourceCodeAnalysis/
+-  https://hnov.github.io/sourceCodeAnalysis
 
 Git项目主页：
 - https://gitee.com/HNov/sourceCodeAnalysis
@@ -15,10 +15,6 @@ Git项目主页：
 <div align=center>
 <img src="https://gitee.com/HNov/image/raw/master/typora/20200608211114.png"/>
 </div>
-
-
-## 目录
-
 ## [首页](README.md)
  ### 一. JAVA基础
    #### [HashMap(JDK8)](docs/HashMap(JDK8)知识汇总.md)
