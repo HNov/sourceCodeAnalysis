@@ -14,7 +14,7 @@ Git项目主页：
    
    
    
-   ![微信头像](https://gitee.com/HNov/image/raw/master/typora/20200608211114.png)
+   ![微信](https://gitee.com/HNov/image/raw/master/typora/20200608211114.png)
 
 
 ## 目录
@@ -26,10 +26,10 @@ Git项目主页：
  ### 三.多线程与高并发
  ### 四.IO与网络编程
  ### 五.数据库
-  #### [高性能MySQL——Count(1) OR Count()](高性能MySQL——Count(1) OR Count().md)
-  #### [使用limit分页查询时,做delete操作,会导致丢失数据](使用limit分页查询时,做delete操作,会导致丢失数据.md)
-  #### [B树和B+树的插入、删除图文详解](B树和B+树的插入、删除图文详解.md)
-  #### [MySQL 三万字精华总结 + 面试100 问，吊打面试官绰绰有余（收藏系列）.md](MySQL 三万字精华总结 + 面试100 问，吊打面试官绰绰有余（收藏系列）.md)
+  #### [高性能MySQL——Count(1) OR Count()](docs/高性能MySQL——Count(1) OR Count().md)
+  #### [使用limit分页查询时,做delete操作,会导致丢失数据](docs/使用limit分页查询时,做delete操作,会导致丢失数据.md)
+  #### [B树和B+树的插入、删除图文详解](docs/B树和B+树的插入、删除图文详解.md)
+  #### [MySQL 三万字精华总结 + 面试100 问，吊打面试官绰绰有余（收藏系列）.md](docs/MySQL 三万字精华总结 + 面试100 问，吊打面试官绰绰有余（收藏系列）.md)
  ### 六.缓存(Redis)
 
 ## 如何为这个开源项目做贡献？
