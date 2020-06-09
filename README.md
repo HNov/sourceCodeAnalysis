@@ -15,7 +15,7 @@ Git项目主页：
 
 
 <div align=center>
-<img src="https://gitee.com/HNov/image/raw/master/typora/20200609000952.jpg"
+	<img src="/sourceCodeAnalysis/static/icon/tuiguang.jpg">
 </div>
 
 ## [首页](README.md)
