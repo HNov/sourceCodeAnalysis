@@ -16,7 +16,7 @@ Git项目主页：
 ​         (PS:如果下面的图挂了，是你所在的网络访问不了Github域名下的图片，可以去[最佳阅读地址里面看图](http://hnov.gitee.io/sourcecodeanalysis))
 
 <div align=center>
-	<img src="/sourceCodeAnalysis/static/icon/tuiguang.jpg">
+  <img src="https://gitee.com/HNov/image/raw/master/typora/20200609000952.jpg">
 </div>
 
 
